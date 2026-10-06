@@ -217,7 +217,123 @@ body > img {
   line-height: 1.6;
 }
 /********** Kalender *******/
+/*.      PROFIL HIDDEN.   */
+.profil {
+  display: none;
+}
 
+/*.    MINI MENU 2.    */
+.mini_menu_2 {
+  margin: 20px;
+  padding: 20px;
+
+  background-color: #d6e6ff;
+  border-radius: 15px;
+
+  box-shadow: 5px 5px 8px hsl(216, 48%, 44%, 41%);
+}
+
+.mini_menu_2 nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.mini_menu_2 a {
+  display: flex;
+  flex-direction: column;
+
+  text-decoration: none;
+  text-align: center;
+
+  color: #3f7f31;
+  font-weight: bold;
+}
+
+.mini_menu_2 img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  align-self: center;
+}
+
+.mini_menu_2 span {
+  padding-top: 2px;
+  font-size: 1rem;
+}
+
+/*.      SKEMA.     */
+.skema {
+  margin: 20px;
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: #3b66a7;
+}
+
+/*      SKEMA TOP.      */
+.skema_top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 15px 20px;
+
+  background-color: #3b66a7;
+  color: white;
+}
+
+.skema_top h2 {
+  margin: 0;
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.skema_top img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+/*.      SKEMA INDHOLD.    */
+.skema_indhold {
+  padding: 20px;
+  background-color: #d6e6ff;
+  border: 5px solid #3b66a7;
+  border-radius: 15px;
+
+  box-shadow: inset 3px 3px 5px hsl(216, 57%, 34%, 53%);
+}
+
+/*.        SKEMA DAGE.    */
+.skema_dage {
+  margin-bottom: 15px;
+  padding: 15px;
+
+  background-color: hsl(109, 70%, 70%, 53%);
+  border-radius: 10px;
+  align-items: start;
+
+  box-shadow: 5px 5px 8px hsl(216, 48%, 44%, 41%);
+}
+
+.skema_dage:last-child {
+  margin-bottom: 0;
+}
+
+.skema_dage h2 {
+  margin: 0;
+  color: #235318;
+}
+
+.skema_dage h3 {
+  margin-bottom: 15px;
+  color: #3f7f31;
+}
+
+.skema_dage p {
+  margin: 0;
+  color: #235318;
+}
 /********* TURNERINGER *******/
 
 /********** TILMELD DIG *********/
