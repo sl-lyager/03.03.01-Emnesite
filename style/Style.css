@@ -10,6 +10,11 @@ img {
   height: auto;
   display: block;
 }
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+}
 /************** Menu *************************/
 
 header {
@@ -36,8 +41,6 @@ header {
 .menu {
   display: flex;
   list-style: none;
-  margin: 0;
-  padding: 0;
   gap: 20px;
 }
 
@@ -61,7 +64,7 @@ header {
     "Helvetica Neue",
     sans-serif;
   font-size: 1.25rem;
-  transition: color 0.3;
+  transition: color 0.3s;
 }
 
 .menu a:hover {
@@ -90,6 +93,129 @@ header {
 
 /********* FORSIDE *******/
 
+/*.    OVERSKRIFTER.    */
+h1 {
+  margin: 30px 20px;
+  text-align: start;
+  font-size: 2rem;
+}
+
+h2 {
+  margin: 40px 20px 20px;
+  font-size: 1.7rem;
+  color: #3b66a7;
+}
+
+/*.     FORSIDE BILLEDE HIDDEN     */
+body > img {
+  display: none;
+}
+
+/*.     TILMELD BOKS.   */
+.tilmeld_boks {
+  margin: 20px;
+  padding: 25px;
+
+  background-color: #ff1f1f;
+  border-radius: 15px;
+
+  text-align: start;
+}
+
+.tilmeld_boks a {
+  display: inline-block;
+
+  padding: 12px 27px;
+
+  background-color: #28bb6d;
+  color: white;
+
+  border-radius: 8px;
+
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.tilmeld_boks p {
+  margin-bottom: 0;
+
+  color: white;
+  line-height: 1.6;
+}
+
+/*.      MINI MENU.    */
+.mini_menu {
+  margin: 20px;
+  padding: 20px;
+
+  background-color: #d6e6ff;
+  border-radius: 15px;
+}
+
+.mini_menu nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.mini_menu a {
+  display: flex;
+  flex-direction: column;
+
+  text-decoration: none;
+  text-align: center;
+
+  color: #3f7f31;
+  font-weight: bold;
+}
+
+.mini_menu img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  align-self: center;
+}
+
+.mini_menu span {
+  padding-top: 2px;
+  font-size: 1rem;
+}
+/*.    OM SBK.    */
+.om_sbk {
+  display: flex;
+  flex-direction: column;
+
+  margin: 0 20px;
+  gap: 20px;
+}
+
+.om_sbk p {
+  margin: 0;
+  line-height: 1.6;
+}
+
+.om_sbk img {
+  border-radius: 10px;
+}
+
+/*.      NYHEDER.    */
+.nyheder {
+  display: flex;
+  flex-direction: column;
+
+  margin: 0 20px;
+  gap: 20px;
+}
+
+.nyheder img {
+  border-radius: 10px;
+}
+
+.nyheder p {
+  margin: 0;
+  line-height: 1.6;
+}
 /********** Kalender *******/
 
 /********* TURNERINGER *******/
