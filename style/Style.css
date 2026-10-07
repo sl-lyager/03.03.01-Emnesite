@@ -107,7 +107,7 @@ h2 {
 }
 
 /*.     FORSIDE BILLEDE HIDDEN     */
-body > img {
+.forside img {
   display: none;
 }
 

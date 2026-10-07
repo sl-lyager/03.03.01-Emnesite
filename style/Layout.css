@@ -1,0 +1,114 @@
+@media (min-width: 700px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+}
+
+/********* FORSIDE DESKTOP ********/
+@media (min-width: 700px) {
+  /*.   FORSIDE BILLEDE.  */
+  .forside {
+    position: relative;
+  }
+
+  .forside img {
+    display: block;
+    padding-inline: 30px;
+    height: 600px;
+    object-fit: cover;
+  }
+
+  .forside h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    margin: 0;
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+  }
+
+  /*.  TILMELD BOKS.  */
+  .tilmeld_boks {
+    position: absolute;
+
+    left: 50px;
+    bottom: -170px;
+
+    width: 350px;
+
+    margin: 0;
+    padding: 30px;
+
+    z-index: 2;
+  }
+
+  /*.    MINI MENU.    */
+  .mini_menu {
+    width: 50%;
+    margin: 20px 40px 60px auto;
+
+    padding: 30px;
+  }
+
+  .mini_menu nav {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+
+  /*.     OM SBK.    */
+  .om_sbk {
+    max-width: 1000px;
+    margin: 30px auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    gap: 50px;
+    align-items: left;
+  }
+
+  .om_sbk img {
+    grid-column: 1;
+  }
+
+  .om_sbk h2,
+  .om_sbk p {
+    grid-column: 2;
+  }
+
+  /*.       NYHEDER.    */
+  .nyheder {
+    max-width: 1000px;
+    margin: 50px auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    gap: 50px;
+    align-items: left;
+  }
+
+  .nyheder img {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .nyheder p {
+    grid-column: 1;
+    grid-row: 1;
+  }
+}
