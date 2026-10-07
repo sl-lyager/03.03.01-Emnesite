@@ -335,5 +335,56 @@ body > img {
   color: #235318;
 }
 /********* TURNERINGER *******/
+/*.     HOLDOPSTILLING.   */
+.holdopstilling {
+  margin: 20px;
+  padding: 20px;
+  background-color: #d6e6ff;
+  border: 5px solid #3b66a7;
+  border-radius: 15px;
+
+  box-shadow: inset 3px 3px 5px hsl(216, 57%, 34%, 53%);
+}
+
+/*.    HOLDOPSTILLING TOP.   */
+.holdopstilling h1 {
+  margin: 0;
+  padding: 15px;
+  color: #3b66a7;
+
+  text-align: center;
+}
+
+.holdopstilling h1:first-of-type {
+  color: #da4444;
+}
+
+.holdopstilling h1:last-child {
+  border-top: 2px solid #3b66a7;
+}
+
+/*.     HOLDOPSTILLING INDHOLD.   */
+.opstillings_indhold {
+  margin: 0;
+}
+
+.opstillings_indhold li {
+  list-style: none;
+}
+
+.single li {
+  line-height: 28px;
+  padding-left: 10px;
+}
+
+.opstillings_indhold h2 {
+  padding: 10px;
+}
+.double ol {
+  padding: 10px;
+}
+.double li {
+  line-height: 20px;
+}
 
 /********** TILMELD DIG *********/
