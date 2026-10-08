@@ -185,22 +185,75 @@ h2 {
 .om_sbk {
   display: flex;
   flex-direction: column;
+  gap: 25px;
 
-  margin: 0 20px;
-  gap: 20px;
+  padding: 40px 20px;
+  margin-top: 40px;
+}
+.om_sbk_tekst h2 {
+  margin-bottom: 15px;
 }
 
-.om_sbk p {
-  margin: 0;
+.om_sbk_tekst p {
+  margin-bottom: 15px;
   line-height: 1.6;
 }
 
 .om_sbk img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
   border-radius: 10px;
 }
 
 /*.      NYHEDER.    */
+.nyheder_section {
+  padding: 40px 20px;
+  margin-top: 20px;
+}
+
+.nyheder_section > h2 {
+  margin-bottom: 25px;
+}
+
 .nyheder {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 25px;
+}
+
+.nyhed {
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.nyhed img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.nyhed > div {
+  padding: 20px;
+}
+
+.nyhed h3 {
+  margin: 0 0 10px;
+}
+
+.nyhed p {
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.nyhed a {
+  text-decoration: none;
+  color: #284c82;
+  font-weight: bold;
+}
+
+/*.nyheder {
   display: flex;
   flex-direction: column;
 
@@ -215,7 +268,7 @@ h2 {
 .nyheder p {
   margin: 0;
   line-height: 1.6;
-}
+}*/
 /********** Kalender *******/
 /*.      PROFIL HIDDEN.   */
 .profil {
@@ -388,3 +441,46 @@ h2 {
 }
 
 /********** TILMELD DIG *********/
+
+/*************** FOOTER. *********/
+footer {
+  position: relative;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 35px 25px;
+
+  background-color: #d6e6ff;
+  padding: 40px 25px;
+
+  margin-top: 50px;
+}
+
+footer > div {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: #284c82;
+}
+
+footer h2 {
+  margin: 0 0 15px;
+  color: #1f3961;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-bottom: 1px solid #333;
+  padding-bottom: 20px;
+}
+
+footer li {
+  margin-bottom: 10px;
+  color: #284c82;
+}
