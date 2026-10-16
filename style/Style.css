@@ -98,12 +98,13 @@ h1 {
   margin: 30px 20px;
   text-align: start;
   font-size: 2rem;
+  color: #214c8c;
 }
 
 h2 {
   margin: 40px 20px 20px;
   font-size: 1.7rem;
-  color: #3b66a7;
+  color: #214c8c;
 }
 
 /*.     FORSIDE BILLEDE HIDDEN     */
@@ -127,8 +128,8 @@ h2 {
 
   padding: 12px 27px;
 
-  background-color: #28bb6d;
-  color: white;
+  background-color: #00cd33;
+  color: rgb(255, 255, 255);
 
   border-radius: 8px;
 
@@ -166,7 +167,7 @@ h2 {
   text-decoration: none;
   text-align: center;
 
-  color: #3f7f31;
+  color: #136700;
   font-weight: bold;
 }
 
@@ -240,6 +241,7 @@ h2 {
 
 .nyhed h3 {
   margin: 0 0 10px;
+  color: #214c8c;
 }
 
 .nyhed p {
@@ -249,26 +251,10 @@ h2 {
 
 .nyhed a {
   text-decoration: none;
-  color: #284c82;
+  color: #227aff;
   font-weight: bold;
 }
 
-/*.nyheder {
-  display: flex;
-  flex-direction: column;
-
-  margin: 0 20px;
-  gap: 20px;
-}
-
-.nyheder img {
-  border-radius: 10px;
-}
-
-.nyheder p {
-  margin: 0;
-  line-height: 1.6;
-}*/
 /********** Kalender *******/
 /*.      PROFIL HIDDEN.   */
 .profil {
@@ -299,7 +285,7 @@ h2 {
   text-decoration: none;
   text-align: center;
 
-  color: #3f7f31;
+  color: #136700;
   font-weight: bold;
 }
 
@@ -385,7 +371,7 @@ h2 {
 
 .skema_dage p {
   margin: 0;
-  color: #235318;
+  color: #103109;
 }
 /********* TURNERINGER *******/
 /*.     HOLDOPSTILLING.   */
@@ -403,13 +389,13 @@ h2 {
 .holdopstilling h1 {
   margin: 0;
   padding: 15px;
-  color: #3b66a7;
+  color: #214c8c;
 
   text-align: center;
 }
 
 .holdopstilling h1:first-of-type {
-  color: #da4444;
+  color: #ff1f1f;
 }
 
 .holdopstilling h1:last-child {
