@@ -94,31 +94,60 @@ header {
 /********* FORSIDE *******/
 
 /*.    OVERSKRIFTER.    */
+
 h1 {
   margin: 30px 20px;
-  text-align: start;
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: #214c8c;
+
+  font-family: "Bungee Inline", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.forside {
+  position: relative;
+}
+
+.forside img {
+  display: block;
+  padding-inline: 15px;
+  height: 400px;
+  object-fit: cover;
+}
+.forside h1 {
+  position: absolute;
+  top: 45%;
+  left: 45%;
+
+  transform: translate(-50%, -50%);
+
+  margin: 0;
+  color: white;
+  text-align: left;
+  font-size: 3.5rem;
+
+  text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.6);
 }
 
 h2 {
-  margin: 40px 20px 20px;
-  font-size: 1.7rem;
+  margin: 20px 10px 20px;
+  font-size: 2rem;
   color: #214c8c;
+
+  font-family: "Bungee", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 /*.     FORSIDE BILLEDE HIDDEN     */
-.forside img {
-  display: none;
-}
 
 /*.     TILMELD BOKS.   */
 .tilmeld_boks {
   margin: 20px;
   padding: 25px;
 
-  background-color: #ff1f1f;
-  border-radius: 15px;
+  background-color: #ff0f0f;
+  border-radius: 5px;
 
   text-align: start;
 }
@@ -128,21 +157,28 @@ h2 {
 
   padding: 12px 27px;
 
-  background-color: #00cd33;
+  background-color: #0ab91f;
   color: rgb(255, 255, 255);
 
   border-radius: 8px;
 
   text-decoration: none;
   font-size: 1.4rem;
+  font-family: "Carter One", system-ui;
   font-weight: bold;
+  font-style: normal;
 }
 
 .tilmeld_boks p {
   margin-bottom: 0;
+  padding: 10px;
 
-  color: white;
+  color: #ffffff;
   line-height: 1.6;
+
+  font-family: "Slabo 13px", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 /*.      MINI MENU.    */
@@ -168,7 +204,9 @@ h2 {
   text-align: center;
 
   color: #136700;
-  font-weight: bold;
+  font-family: "Slabo 13px", serif;
+  font-weight: bolder;
+  font-style: normal;
 }
 
 .mini_menu img {
@@ -198,6 +236,10 @@ h2 {
 .om_sbk_tekst p {
   margin-bottom: 15px;
   line-height: 1.6;
+
+  font-family: "Slabo 13px", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .om_sbk img {
@@ -241,18 +283,31 @@ h2 {
 
 .nyhed h3 {
   margin: 0 0 10px;
-  color: #214c8c;
+  color: #d50202;
+
+  font-family: "Bungee Inline", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  font-size: 1.5rem;
 }
 
 .nyhed p {
   line-height: 1.5;
   margin-bottom: 15px;
+
+  font-family: "Slabo 13px", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .nyhed a {
   text-decoration: none;
-  color: #227aff;
-  font-weight: bold;
+  color: #d50202;
+
+  font-family: "Slabo 13px", serif;
+  font-style: italic;
+  font-weight: bolder;
 }
 
 /********** Kalender *******/
@@ -286,7 +341,10 @@ h2 {
   text-align: center;
 
   color: #136700;
-  font-weight: bold;
+
+  font-family: "Slabo 13px", serif;
+  font-weight: bolder;
+  font-style: normal;
 }
 
 .mini_menu_2 img {
@@ -326,6 +384,10 @@ h2 {
   color: white;
   font-size: 1.5rem;
   text-align: center;
+
+  font-family: "Carter One", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .skema_top img {
@@ -345,6 +407,10 @@ h2 {
 
 /*.        SKEMA DAGE.    */
 .skema_dage {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+
   margin-bottom: 15px;
   padding: 15px;
 
@@ -355,23 +421,29 @@ h2 {
   box-shadow: 5px 5px 8px hsl(216, 48%, 44%, 41%);
 }
 
-.skema_dage:last-child {
-  margin-bottom: 0;
-}
-
 .skema_dage h2 {
   margin: 0;
   color: #235318;
+  font-size: 1.75rem;
 }
 
 .skema_dage h3 {
   margin-bottom: 15px;
   color: #3f7f31;
+
+  font-family: "Quantico", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .skema_dage p {
   margin: 0;
   color: #103109;
+
+  font-family: "Slabo 13px", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.25rem;
 }
 /********* TURNERINGER *******/
 /*.     HOLDOPSTILLING.   */
@@ -390,8 +462,9 @@ h2 {
   margin: 0;
   padding: 15px;
   color: #214c8c;
+  font-size: 2.5rem;
 
-  text-align: center;
+  text-align: left;
 }
 
 .holdopstilling h1:first-of-type {
@@ -409,6 +482,10 @@ h2 {
 
 .opstillings_indhold li {
   list-style: none;
+  font-family: "Slabo 13px", serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 1.25rem;
 }
 
 .single li {
@@ -425,8 +502,6 @@ h2 {
 .double li {
   line-height: 20px;
 }
-
-/********** TILMELD DIG *********/
 
 /*************** FOOTER. *********/
 footer {
@@ -464,6 +539,10 @@ footer ul {
   margin: 0;
   border-bottom: 1px solid #333;
   padding-bottom: 20px;
+
+  font-family: "Slabo 13px", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 footer li {
